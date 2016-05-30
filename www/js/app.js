@@ -34,12 +34,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
   .state('app.home', {
     url: '/home',
-    templateUrl: 'templates/home.html',
+    templateUrl: 'templates/home.html'
   })
 
   .state('app.settings', {
     url: '/settings',
-    templateUrl: 'templates/settings.html',
+    templateUrl: 'templates/settings.html'
   })
 
   .state('login', {
