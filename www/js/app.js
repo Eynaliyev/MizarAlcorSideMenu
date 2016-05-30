@@ -48,7 +48,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'AuthCtrl as auth'
   })
 
-  .state('profile', {
+  .state('app.profile', {
     url: '/profile',
     views: {
       'profile': {
